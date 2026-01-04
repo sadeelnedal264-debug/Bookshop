@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <title>Cart</title>
-    <link rel="stylesheet"
-      href="style.css">
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
     <nav>
-      <a href="index.html">Home</a>
-        <a href="products.html">Books</a>
+        <a href="index.html">Home</a>
+        <a href="books.html">Books</a>
         <a href="cart.html">Cart</a>
     </nav>
-    <h2>Your Cart</h2>
-    <p>Books added to cart successfully.</p>
-    <button class="btn">Checkout</button>
-    <p class="success">Order replace successfully✔️</p>
-  </body>
+</header>
+
+<h2 class="page-title">Shopping Cart</h2>
+
+<div id="cart-items" class="cart-items"></div>
+<h3 id="total-price" class="total-price"></h3>
+
+<script src="j.js"></script>
+</body>
 </html>
