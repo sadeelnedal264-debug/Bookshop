@@ -12,16 +12,16 @@
 */
 
 const books = [
-    { id: 1, title: "The Great Gatsby", desc: "American classic novel.", price: 10.99, image: "https://via.placeholder.com/150x200?text=Book+1" },
-    { id: 2, title: "1984", desc: "Dystopian future world.", price: 9.99, image: "https://via.placeholder.com/150x200?text=Book+2" },
-    { id: 3, title: "Harry Potter", desc: "Fantasy magic adventure.", price: 14.99, image: "https://via.placeholder.com/150x200?text=Book+3" },
-    { id: 4, title: "Dune", desc: "Sci-Fi masterpiece.", price: 15.99, image: "https://via.placeholder.com/150x200?text=Book+4" },
-    { id: 5, title: "The Hobbit", desc: "Fantasy journey.", price: 13.99, image: "https://via.placeholder.com/150x200?text=Book+5" },
-    { id: 6, title: "To Kill a Mockingbird", desc: "Justice and morality.", price: 12.99, image: "https://via.placeholder.com/150x200?text=Book+6" },
-    { id: 7, title: "LOTR", desc: "Epic fantasy.", price: 19.99, image: "https://via.placeholder.com/150x200?text=Book+7" },
-    { id: 8, title: "Fahrenheit 451", desc: "Censorship future.", price: 8.99, image: "https://via.placeholder.com/150x200?text=Book+8" },
-    { id: 9, title: "Neuromancer", desc: "Cyberpunk world.", price: 11.49, image: "https://via.placeholder.com/150x200?text=Book+9" },
-    { id: 10, title: "Pride and Prejudice", desc: "Romantic classic.", price: 11.99, image: "https://via.placeholder.com/150x200?text=Book+10" }
+    { id: 1, title: "لِيطمئن قلبي", desc: "ادهم شرقاوي", price: 10, image: "https://via.placeholder.com/150x200?text=Book+1" },
+    { id: 2, title: "رجال في الشمس", desc: "غسان كنغاني", price: 15, image: "https://via.placeholder.com/150x200?text=Book+2" },
+    { id: 3, title: "موسم الهجره الى الشمال", desc: "الطيب صالح", price: 14, image: "https://via.placeholder.com/150x200?text=Book+3" },
+    { id: 4, title: "الولد", desc: "طه حسين", price: 22, image: "https://via.placeholder.com/150x200?text=Book+4" },
+    { id: 5, title: "لا تطفئ الشمس", desc: "احسان عبد القدوس", price:20 , image: "https://via.placeholder.com/150x200?text=Book+5" },
+    { id: 6, title: "ليله القدر", desc: "نجيب محفوظ", price:16 , image: "https://via.placeholder.com/150x200?text=Book+6" },
+    { id: 7, title: "الباب", desc: "يوسف سباعي", price: 25, image: "https://via.placeholder.com/150x200?text=Book+7" },
+    { id: 8, title: "عائد الى حيفا ", desc: "غسان كنفاني", price: 22, image: "https://via.placeholder.com/150x200?text=Book+8" },
+    { id: 9, title: "زهره الصبار", desc: "عبد الرحمن منيف", price: 13, image: "https://via.placeholder.com/150x200?text=Book+9" },
+    { id: 10, title: "بين القصرين", desc: "نجيب محفوظ", price: 21, image: "https://via.placeholder.com/150x200?text=Book+10" }
 ];
 
 // Retrieve cart data from LocalStorage
