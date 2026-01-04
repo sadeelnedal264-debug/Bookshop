@@ -13,15 +13,15 @@
 
 const books = [
     { id: 1, title: "لِيطمئن قلبي", desc: "ادهم شرقاوي", price: 10, image: "https://via.placeholder.com/150x200?text=Book+1" },
-    { id: 2, title: "رجال في الشمس", desc: "غسان كنغاني", price: 15, image: "https://via.placeholder.com/150x200?text=Book+2" },
-    { id: 3, title: "موسم الهجره الى الشمال", desc: "الطيب صالح", price: 14, image: "https://via.placeholder.com/150x200?text=Book+3" },
-    { id: 4, title: "الولد", desc: "طه حسين", price: 22, image: "https://via.placeholder.com/150x200?text=Book+4" },
-    { id: 5, title: "لا تطفئ الشمس", desc: "احسان عبد القدوس", price:20 , image: "https://via.placeholder.com/150x200?text=Book+5" },
-    { id: 6, title: "ليله القدر", desc: "نجيب محفوظ", price:16 , image: "https://via.placeholder.com/150x200?text=Book+6" },
-    { id: 7, title: "الباب", desc: "يوسف سباعي", price: 25, image: "https://via.placeholder.com/150x200?text=Book+7" },
-    { id: 8, title: "عائد الى حيفا ", desc: "غسان كنفاني", price: 22, image: "https://via.placeholder.com/150x200?text=Book+8" },
-    { id: 9, title: "زهره الصبار", desc: "عبد الرحمن منيف", price: 13, image: "https://via.placeholder.com/150x200?text=Book+9" },
-    { id: 10, title: "بين القصرين", desc: "نجيب محفوظ", price: 21, image: "https://via.placeholder.com/150x200?text=Book+10" }
+    { id: 2, title: "رجال في الشمس", desc: "غسان كنغاني", price: 15, image: "https://via.placeholder.com/150x200?text=رجال+في+الشمس" },
+    { id: 3, title: "موسم الهجره الى الشمال", desc: "الطيب صالح", price: 14, image: "https://via.placeholder.com/150x200?text=موسم+الهجرة+إلى+الشمال" },
+    { id: 4, title: "الولد", desc: "طه حسين", price: 22, image: "https://via.placeholder.com/150x200?text=الولد" },
+    { id: 5, title: "لا تطفئ الشمس", desc: "احسان عبد القدوس", price:20 , image: "https://via.placeholder.com/150x200?text=لا+تطفئ+الشمس" },
+    { id: 6, title: "ليله القدر", desc: "نجيب محفوظ", price:16 , image: "https://via.placeholder.com/150x200?text=ليلة+القدر" },
+    { id: 7, title: "الباب", desc: "يوسف سباعي", price: 25, image: "https://via.placeholder.com/150x200?text=الباب" },
+    { id: 8, title: "عائد الى حيفا ", desc: "غسان كنفاني", price: 22, image: "https://via.placeholder.com/150x200?text=عائد+إلى+حيفا" },
+    { id: 9, title: "زهره الصبار", desc: "عبد الرحمن منيف", price: 13, image: "https://via.placeholder.com/150x200?text=زهرة+الصبار" },
+    { id: 10, title: "بين القصرين", desc: "نجيب محفوظ", price: 21, image: "https://via.placeholder.com/150x200?text=بين+القصرين" }
 ];
 
 // Retrieve cart data from LocalStorage
